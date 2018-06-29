@@ -5,7 +5,7 @@
  - Written poorly at the moment, plan on optimizing the code. It works great, but the code can be rewritten to be cleaner.
 ## Key Features
 
- - Low memory usage
+ - Low memory usage (~50MB)
  - Supports GB's worth of files
 
 ### Example Usage 
