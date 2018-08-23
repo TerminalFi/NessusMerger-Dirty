@@ -12,3 +12,4 @@
 ```
 python3 nessusmerger.py -l DIRECTORY_OF_NESSUS_FILES -o Merged_Report.nessus
 ```
+
