@@ -81,7 +81,7 @@ def append_to_report(report_path, initial_context, func, *args, **kwargs):  # py
 
             file = open(report_path, 'ab')
             file.write(ET.tostring(
-                elem, pretty_print=True, xml_declaration=False))
+                elem, pretty_print=True, encoding='UTF-8', xml_declaration=False))
             file.close()
             func(elem, *args, **kwargs)
             elem.clear()
